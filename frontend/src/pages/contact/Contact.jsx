@@ -7,9 +7,10 @@ const Contact = () => {
   return (
     <div className="contact-container mx-auto max-w-7xl px-4 py-10">
       {/* Top Section with Image */}
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-5 text-center ">Contact Us</h2>
+
       <div className="contact-img mb-10 text-center">
         <img src={images.bolg1} alt="Contact Us" className="w-full h-auto rounded-lg shadow-lg" />
-        <h2 className="text-3xl font-bold text-gray-800 mt-4">Contact Us</h2>
       </div>
 
       {/* Contact Section */}
